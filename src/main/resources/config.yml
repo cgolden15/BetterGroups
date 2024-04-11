@@ -1,1 +1,19 @@
-chatFormat: "{TAG}&r {PLAYER}:&r {MESSAGE}"
+chatFormat: '{TAG}&r {PLAYER}:&r {MESSAGE}'
+groups:
+  staff:
+    prefix: '&a[Staff]'
+    hierarchy: 25
+    users:
+      - 5b4bbef3-4d34-4694-8d50-5ad58e8d748e
+  admin:
+    prefix: '&b[Admin]'
+    hierarchy: 50
+    users: []
+  test:
+    prefix: '[Test]'
+    hierarchy: 100
+    users: []
+  Mod:
+    prefix: '&2[Mod]'
+    hierarchy: 0
+    users: []
