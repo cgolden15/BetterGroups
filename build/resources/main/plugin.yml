@@ -1,0 +1,24 @@
+name: BetterGroups
+version: '1.1'
+main: dev.goldenn.bettergroups.BetterGroups
+api-version: '1.16'
+prefix: BetterGroups
+depend: [Essentials]
+authors: [Golden]
+description: Groups, ranks, perms and more!
+commands:
+  creategroup:
+    description: Creates a new group with a prefix.
+    usage: /creategroup <name> <prefix>
+    permission: bettergroups.create
+  addtogroup:
+    description: Adds a player to a specified group.
+    usage: /<command> <group> <player>
+    permission: bettergroups.add
+  tagreload:
+    description: Reload the plugin configuration.
+    usage: /tagreload
+    permission: bettergroups.reload
+  removefromgroup:
+    description: Remove a player from a group.
+    usage: /removefromgroup <player> <group>
